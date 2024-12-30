@@ -55,6 +55,16 @@ img{
     width: 100%;
     border-radius: 1rem;
 }
+figcaption{
+    position: fixed;
+    clip: rect(0,0,0);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
 
 @media (max-width: 375px){
     .QRcontainer{
